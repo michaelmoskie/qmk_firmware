@@ -57,6 +57,7 @@ int main(void) {
 
     /* Main loop */
     while (true) {
+        // We're going to add a check here
         protocol_task();
 
 #ifdef QUANTUM_PAINTER_ENABLE
